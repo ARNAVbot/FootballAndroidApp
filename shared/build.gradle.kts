@@ -19,6 +19,7 @@ kotlin {
 
     iosTarget("ios") {}
 
+    version = "1.0.0"
     cocoapods {
         summary = "Some description for the Shared Module"
         homepage = "Link to the Shared Module homepage"
@@ -26,7 +27,7 @@ kotlin {
         frameworkName = "shared"
         // set path to your ios project podfile, e.g. podfile = project.file("../iosApp/Podfile")
     }
-    
+
     sourceSets {
         val commonMain by getting
         val commonTest by getting {
